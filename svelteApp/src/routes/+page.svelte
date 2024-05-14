@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Navbar from "$lib/components/navbar.svelte";
+</script>
+
+<Navbar />
+
+<br>
+<div class="flex justify-center">
+    <h1 class="text-lime-500 font-mono">Page content goes here</h1>
+</div>
+
+<style>
+</style>
