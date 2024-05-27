@@ -1,0 +1,1 @@
+** This project is to track my work creating a simple svelte app which interfaces with a python-django backend **
