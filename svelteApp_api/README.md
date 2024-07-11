@@ -26,10 +26,8 @@ communication with the default postgres port.
 to limit these to a specific set of ips for more security</p>
 <h4>pg_hba.conf:</h4>
 <p>Add permissions for local ip addresses to connect to the database using md5:
-
+</p>
 <code>host    all             all              0.0.0.0/0                       md5</code>
-<br>
 <code>host    all             all              ::/0                            md5</code>
 
-</p>
 <hr>
