@@ -28,6 +28,7 @@ to limit these to a specific set of ips for more security</p>
 <p>Add permissions for local ip addresses to connect to the database using md5:
 
 <code>host    all             all              0.0.0.0/0                       md5</code>
+<br>
 <code>host    all             all              ::/0                            md5</code>
 
 </p>
