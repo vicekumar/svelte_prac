@@ -25,10 +25,10 @@ communication with the default postgres port.
 <p>Set <code>listen_address = '*'</code> to allow all external connections, you can also use a cidr address
 to limit these to a specific set of ips for more security</p>
 <h4>pg_hba.conf:</h4>
-<p>Add permissions for local ip addresses to connect to the database using md5:
+<p>Add permissions for local ip addresses to connect to the database using md5 (copy paste these lines to the end of your <code>pg_hba.conf</code>):
 </p>
-<i>ipv4:</i> <code>host    all             all              0.0.0.0/0                       md5</code>
+<code>host    all             all              0.0.0.0/0                       md5</code>
 <br>
-<i>ipv6: </i><code>host    all             all              ::/0                            md5</code>
+<code>host    all             all              ::/0                            md5</code>
 
 <hr>
