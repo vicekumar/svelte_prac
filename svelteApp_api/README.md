@@ -27,7 +27,8 @@ to limit these to a specific set of ips for more security</p>
 <h4>pg_hba.conf:</h4>
 <p>Add permissions for local ip addresses to connect to the database using md5:
 </p>
-<code>host    all             all              0.0.0.0/0                       md5</code>
-<code>host    all             all              ::/0                            md5</code>
+<i>ipv4:</i> <code>host    all             all              0.0.0.0/0                       md5</code>
+<br>
+<i>ipv6: </i><code>host    all             all              ::/0                            md5</code>
 
 <hr>
